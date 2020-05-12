@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        body{
+            background-color: #d4f3ef;
+        }
+
+        h2{
+            font-family: monospace;
+            font-size: 40px;
+        }
+
+       
+       
+
+        hr{
+            
+            border-style:none;
+            border-top-style:solid;
+            border-color:#007892;
+            border-width: 3px;
+
+        }
+
+        legend{
+            font-size: 30px;
+        }
+    </style>
+    
+
+</head>
+
+<body>
+
+    <center>
+        <h2>
+            Please fill the form to reach out to us
+        </h2>
+    </center>
+
+    <hr>
+
+    <br><br>
+    <form>
+        <fieldset>
+            <legend>Enter Your Information</legend>
+            <label>Please enter your name:</label><br>
+            <input type="text" placeholder="Enter Your Name"><br>
+            <label>Please enter your Email:</label><br>
+            <input type="email" placeholder="Enter your Email"><br>
+            <label>Please enter your Mobile Number:</label><br>
+            <input type="number" placeholder="Enter your Mobile Number"><br>
+            <label>Please enter your DOB:</label><br>
+            <input type="date"><br>
+            <label>Please enter CV:</label><br>
+            <input type="file"><br>
+            <label>Enter Your Education Details:</label><br>
+            <input type="checkbox">10<sup>th</sup> <br>
+            <input type="checkbox">12 <sup>th</sup> <br>
+            <input type="checkbox">Diploma <br>
+            <input type="checkbox">BE<br>
+            <label> Select Your Gender:</label><br>
+            <input type="radio" name="gender">Male <br>
+            <input type="radio" name="gender">Female <br>
+            <label>Select your State:</label>
+            <select>
+                <option>Maharashtra</option>
+                <option>Goa</option>
+                <option>Gujarat</option>
+                <option>Rajasthan</option>
+                <option>Delhi</option>
+            </select><br>
+            <label>Enter Your City:</label>
+            <input type="text" list="city">
+            <datalist id="city">
+                <option>Pune</option>
+                <option>Mumbai</option>
+                <option>Satara</option>
+                <option>Nagpur</option>
+                <option>Nashik</option>
+            </datalist> <br>
+            <label for="">Please Give your Feedback:</label>
+            <input type="range">
+            <br>
+            <input type="submit" name="Register">
+
+        </fieldset>
+
+    </form>
+ 
+</body>
+
+</html>
